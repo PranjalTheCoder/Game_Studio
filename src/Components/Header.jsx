@@ -19,7 +19,7 @@ function Header() {
         <HiOutlineMagnifyingGlass className='text-blue-500 transform scale-125' />
         <input 
           type="text" 
-          className='px-2 bg-transparent dark:bg-cyan-500 outline-none' 
+          className='px-2 bg-transparent outline-none' 
           placeholder="Search Games" 
         />
       </div>
@@ -27,11 +27,15 @@ function Header() {
         {theme === 'light' ? (
           <HiMoon 
             className='text-[35px] bg-slate-200 text-black p-1 rounded-full cursor-pointer' 
-            onClick={() => setTheme('dark')} // Set theme to dark
+            onClick={() => {setTheme('dark');
+              localStorage.setItem('theme', 'dark')
+            }}
           />
         ) : (
           <HiSun 
-            onClick={() => setTheme('light')} // Set theme to light
+            onClick={() =>{setTheme('light');
+              localStorage.setItem('theme', 'light')
+            }}
             className='text-[35px] bg-slate-200 text-black p-1 rounded-full cursor-pointer' 
           />
         )}
