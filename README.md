@@ -26,8 +26,8 @@ A real-time **facial emotion detection** app built with **React**, **TensorFlow.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/facial-emotion-detection.git
-   cd facial-emotion-detection
+   git clone https://github.com/017-anamika/Facial_Emotion_Detection_017.git
+   cd Facial_Emotion_Detection_017
    
 2. Install the required dependencies:
    ```bash
