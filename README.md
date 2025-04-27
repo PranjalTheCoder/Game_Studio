@@ -36,21 +36,21 @@ A real-time **facial emotion detection** app built with **React**, **TensorFlow.
 3. Download the pre-trained models for Tiny Face Detector and Face Expression Model and place them in the public/models directory.
 
 ### Run the App 🚀
-Start the development server:
-   ```bash
-   npm run dev
-   ```
-Navigate to http://localhost:3000 in your browser. 🌍
+   Start the development server:
+      ```bash
+      npm run dev
+      ```
+   Navigate to http://localhost:3000 in your browser. 🌍
 
 ###Project Structure 📂
-   ```bash
-   /public
-     └── /models         # TensorFlow models for face-api.js
-   /src
-     └── App.js          # Main component for emotion detection
-     └── main.jsx        # Entry point for the React app
-   .gitignore
-   eslint.config.js      # ESLint configuration
-   package.json          # Project dependencies and scripts
-   vite.config.js        # Vite build configuration
-   README.md             # Project documentation
+      ```bash
+      /public
+        └── /models         # TensorFlow models for face-api.js
+      /src
+        └── App.js          # Main component for emotion detection
+        └── main.jsx        # Entry point for the React app
+      .gitignore
+      eslint.config.js      # ESLint configuration
+      package.json          # Project dependencies and scripts
+      vite.config.js        # Vite build configuration
+      README.md             # Project documentation
