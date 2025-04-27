@@ -1,28 +1,28 @@
-# Facial Emotion Detection App
+# Facial Emotion Detection App 🧠💻
 
-A real-time facial emotion detection app built with **React**, **TensorFlow.js**, and **Vite**. It uses **face-api.js** to detect emotions like happy, sad, and angry from webcam feed.
+A real-time **facial emotion detection** app built with **React**, **TensorFlow.js**, and **Vite**. It uses **face-api.js** to detect emotions like happy, sad, and angry from your webcam feed. 😄😢😠
 
-## Features
+## Features 🌟
 
-- Real-time emotion detection via webcam.
-- Displays dominant emotion and intensity bar.
-- Screenshot capture of detected emotion.
+- Real-time emotion detection via webcam. 📹
+- Displays dominant emotion and an intensity bar. 📊
+- Screenshot capture of detected emotion. 📸
 
-## Technologies Used
+## Technologies Used 🛠️
 
-- **React**: Frontend framework for building UI.
-- **TensorFlow.js** & **face-api.js**: For facial emotion detection.
-- **Vite**: Fast build tool with HMR (Hot Module Replacement).
-- **JavaScript** & **CSS**: For styling and functionality.
+- **React**: Frontend framework for building the UI. 🖥️
+- **TensorFlow.js** & **face-api.js**: For facial emotion detection. 🤖
+- **Vite**: Fast build tool with HMR (Hot Module Replacement). ⚡
+- **JavaScript** & **CSS**: For styling and functionality. 🎨
 
-## Setup and Installation
+## Setup and Installation ⚙️
 
-### Prerequisites
+### Prerequisites 📋
 
-- **Node.js** (v14 or higher)
-- **npm** (or **Yarn**)
+- **Node.js** (v14 or higher) ⚡
+- **npm** (or **Yarn**) 🎯
 
-### Install Dependencies
+### Install Dependencies 📦
 
 1. Clone the repository:
    ```bash
