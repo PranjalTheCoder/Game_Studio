@@ -40,7 +40,7 @@ Start the development server:
    ```bash
    npm run dev
    ```
-Navigate to http://localhost:3000 in your browser. 🌍
+Navigate to http://localhost:5173 in your browser. 🌍
 
 ###Project Structure 📂
    ```bash
