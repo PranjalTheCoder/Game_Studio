@@ -42,7 +42,7 @@ Start the development server:
    ```
 Navigate to http://localhost:5173 in your browser. 🌍
 
-###Project Structure 📂
+### Project Structure 📂
    ```bash
    /public
    └── /models         # TensorFlow models for face-api.js
